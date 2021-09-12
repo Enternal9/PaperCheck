@@ -55,7 +55,7 @@ public class MainPaperCheckTest {
         String str1 = TxtIo.readTxt("D:\\works\\txttest\\orig_0.8_add.txt");
         String ansfile = "D:\\works\\txttest\\OrigAndAddTest.txt";
         double ans = Hamming.getSimilarity(SimHash.getSimHash(str0),SimHash.getSimHash(str1));
-        TxtIo.writeTxt(ans,ansfile,"原文","add");
+        TxtIo.writeTxt(ans,ansfile,"原文","add0");
     }
 
     @Test
