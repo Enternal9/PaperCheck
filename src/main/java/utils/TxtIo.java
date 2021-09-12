@@ -42,7 +42,7 @@ public class TxtIo {
             fw.write("查重率为：");
             fw.write(str, 0, (str.length()>3?5:str.length()));//输出的结果为百分数，含2位小数
             fw.write("%");
-            fw.write("\r\n");
+            fw.write("\r\n\n");
             System.out.println("查重结果已输出到：" + txtPath);
             fw.close();
         }catch(IOException e){
