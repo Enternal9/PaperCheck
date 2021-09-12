@@ -1,0 +1,1 @@
+java -jar Check.jar D:\works\txttest\orig.txt D:\works\txttest\orig_0.8_add.txt D:\works\txttest\anstest1.txt
